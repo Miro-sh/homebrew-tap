@@ -3,8 +3,8 @@ class Animesama < Formula
 
   desc "Browse and watch anime from anime-sama.fr directly in your terminal"
   homepage "https://github.com/Miro-sh/animesama-cli"
-  url "https://files.pythonhosted.org/packages/b5/6b/5c558757a5069c65e3d0dc8ce6faa39b7eafce83babf7acb91196a0def1e/animesama-1.0.9.tar.gz"
-  sha256 "2b0cda39d85c6b62844ba6bca79b1f3e5915c9a1205142cce1c2d064364d3aec"
+  url "https://files.pythonhosted.org/packages/79/80/2d11ca929fdf3a0e08ac892c57637fa52ea11b7ebd4dca5bfa3dcf241250/animesama-1.0.10.tar.gz"
+  sha256 "afe27a2aa4851f70b49a1eea410294c3f01fc57100838a5c67b609e685548e62"
   license "GPL-3.0-only"
 
   depends_on "mpv"
