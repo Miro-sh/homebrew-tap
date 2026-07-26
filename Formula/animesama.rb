@@ -3,8 +3,8 @@ class Animesama < Formula
 
   desc "Browse and watch anime from anime-sama.fr directly in your terminal"
   homepage "https://github.com/Miro-sh/animesama-cli"
-  url "https://files.pythonhosted.org/packages/68/cc/d89820d494c4f24c70367fcf65051719f95fb8cf564377685620edec4e8d/animesama-1.0.18.tar.gz"
-  sha256 "9a4d1d1e921044c26e45959b751343930ac241cbf6347d364df54a819320e1b9"
+  url "https://files.pythonhosted.org/packages/63/fe/22b2dd36d763063833aa2a2265dd046f137ddc0bf63b7a444e101a397182/animesama-1.0.19.tar.gz"
+  sha256 "44bb34892cc6e193ccdb6dec60287117e711ab7cecb697af5e20e3447eb062d3"
   license "GPL-3.0-only"
 
   depends_on "mpv"
@@ -42,6 +42,10 @@ class Animesama < Formula
     url "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz"
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
+  resource "pillow" do
+    url "https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz"
+    sha256 "3b8182a766685eaa002637e28b4ec8d6b18819a0c71f579bf0dbaa5830297cce"
+  end
   resource "platformdirs" do
     url "https://files.pythonhosted.org/packages/78/9b/560e4be8e26f6fd133a03630a8df0c663b9e8d61b4ade152b72005aec83b/platformdirs-4.11.0.tar.gz"
     sha256 "0555d18370482847566ffabcaa53ad7c6c1c29f195989ae1ed634a05f76ea1e0"
@@ -57,6 +61,10 @@ class Animesama < Formula
   resource "rich" do
     url "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz"
     sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
+  end
+  resource "rich-pixels" do
+    url "https://files.pythonhosted.org/packages/31/71/6d5cd4b8d67cd49366eda19aaf37f20094ce562223a91166109202590237/rich_pixels-3.0.1.tar.gz"
+    sha256 "4a81977d45437ce5009cdcaf70af80256c3bdfab870e87ab802c577ba4133235"
   end
   resource "soupsieve" do
     url "https://files.pythonhosted.org/packages/d9/38/e12680bbe6b4f8f3d17adcaf38d26850aa756c85cf4a80e79fc12a018fe8/soupsieve-2.9.1.tar.gz"
