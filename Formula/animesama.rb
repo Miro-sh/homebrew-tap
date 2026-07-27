@@ -3,8 +3,8 @@ class Animesama < Formula
 
   desc "Browse and watch anime from anime-sama.fr directly in your terminal"
   homepage "https://github.com/Miro-sh/animesama-cli"
-  url "https://files.pythonhosted.org/packages/63/fe/22b2dd36d763063833aa2a2265dd046f137ddc0bf63b7a444e101a397182/animesama-1.0.19.tar.gz"
-  sha256 "44bb34892cc6e193ccdb6dec60287117e711ab7cecb697af5e20e3447eb062d3"
+  url "https://files.pythonhosted.org/packages/30/8e/e72021b912fa4a72d207ab7084128583c953e9bd6e8c5caf9814f4cc90e6/animesama-1.0.20.tar.gz"
+  sha256 "1b90058b1fd55848ee3bd5e459b76949d7d769b6e428f97e61169b9b4a6e50c4"
   license "GPL-3.0-only"
 
   depends_on "mpv"
@@ -61,10 +61,6 @@ class Animesama < Formula
   resource "rich" do
     url "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz"
     sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
-  end
-  resource "rich-pixels" do
-    url "https://files.pythonhosted.org/packages/31/71/6d5cd4b8d67cd49366eda19aaf37f20094ce562223a91166109202590237/rich_pixels-3.0.1.tar.gz"
-    sha256 "4a81977d45437ce5009cdcaf70af80256c3bdfab870e87ab802c577ba4133235"
   end
   resource "soupsieve" do
     url "https://files.pythonhosted.org/packages/d9/38/e12680bbe6b4f8f3d17adcaf38d26850aa756c85cf4a80e79fc12a018fe8/soupsieve-2.9.1.tar.gz"
